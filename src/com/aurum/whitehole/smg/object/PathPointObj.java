@@ -135,9 +135,9 @@ public class PathPointObj extends AbstractObj {
         panel.addField("[P]name", "Name", "text", null, path.data.get("name"), "Default");
 
         panel.addCategory("path_args", "Path arguments");
-        panel.addField("[P]path_arg0", "path_arg0", "int", null, path.data.get("path_arg0"), "Default");
-        panel.addField("[P]path_arg1", "path_arg1", "int", null, path.data.get("path_arg1"), "Default");
-        panel.addField("[P]path_arg2", "path_arg2", "int", null, path.data.get("path_arg2"), "Default");
+        panel.addField("[P]path_arg0", "End Wait", "int", null, path.data.get("path_arg0"), "Default");
+        panel.addField("[P]path_arg1", "Repeat Count", "int", null, path.data.get("path_arg1"), "Default");
+        panel.addField("[P]path_arg2", "Orange Outline?", "int", null, path.data.get("path_arg2"), "Default");
         panel.addField("[P]path_arg3", "path_arg3", "int", null, path.data.get("path_arg3"), "Default");
         panel.addField("[P]path_arg4", "path_arg4", "int", null, path.data.get("path_arg4"), "Default");
         panel.addField("[P]path_arg5", "path_arg5", "int", null, path.data.get("path_arg5"), "Default");
@@ -156,13 +156,13 @@ public class PathPointObj extends AbstractObj {
         panel.addField("pnt2_z", "Control 2 Z", "float", null, point2.z, "Default");
 
         panel.addCategory("point_args", "Point arguments");
-        panel.addField("point_arg0", "point_arg0", "int", null, data.get("point_arg0"), "Default");
+        panel.addField("point_arg0", "Speed", "int", null, data.get("point_arg0"), "Default");
         panel.addField("point_arg1", "point_arg1", "int", null, data.get("point_arg1"), "Default");
         panel.addField("point_arg2", "point_arg2", "int", null, data.get("point_arg2"), "Default");
         panel.addField("point_arg3", "point_arg3", "int", null, data.get("point_arg3"), "Default");
         panel.addField("point_arg4", "point_arg4", "int", null, data.get("point_arg4"), "Default");
         panel.addField("point_arg5", "point_arg5", "int", null, data.get("point_arg5"), "Default");
-        panel.addField("point_arg6", "point_arg6", "int", null, data.get("point_arg6"), "Default");
+        panel.addField("point_arg6", "Wait Time", "int", null, data.get("point_arg6"), "Default");
         panel.addField("point_arg7", "point_arg7", "int", null, data.get("point_arg7"), "Default");
     }
     
