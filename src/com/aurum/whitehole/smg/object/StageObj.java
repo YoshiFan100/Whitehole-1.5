@@ -36,7 +36,7 @@ public class StageObj extends AbstractObj {
         uniqueID = -1;
         
         position = new Vector3((float)data.get("pos_x"), (float)data.get("pos_y"), (float)data.get("pos_z"));
-        rotation = new Vector3((float)data.get("dir_z"), (float)data.get("dir_y"), (float)data.get("dir_y"));
+        rotation = new Vector3((float)data.get("dir_z"), (float)data.get("dir_y"), (float)data.get("dir_x"));
         scale = new Vector3(1,1,1);
     }
     
